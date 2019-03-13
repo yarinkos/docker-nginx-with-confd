@@ -23,7 +23,7 @@ use confd to template your index.html which will display the value of the team E
 ```
     
    Note: 
-   1.run on my local kubeadm installtion
+   1.run on my local vagrant kubeadm installtion
    
    2.basic image with ngnix and confd  installed was forked from :
    sysboss/docker-nginx-with-confd 
