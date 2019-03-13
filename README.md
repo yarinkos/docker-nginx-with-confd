@@ -1,9 +1,4 @@
 
-docker exec -it 8e6bed5c7a61 /bin/sh
-
-export ENV_NAME=FooPaasOpsBar; echo $ENV_NAME
-
-/bin/confd -onetime -backend env
 
 ### task:
 install minikube on your mac\win
@@ -70,3 +65,12 @@ use confd to template your index.html which will display the value of the team E
    
    
    ```
+   
+
+Tmp Testing:
+
+docker exec -it 8e6bed5c7a61 /bin/sh
+
+export ENV_NAME=FooPaasOpsBar; echo $ENV_NAME
+
+/bin/confd -onetime -backend env
