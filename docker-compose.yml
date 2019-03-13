@@ -1,8 +1,9 @@
 nginx-confd:
-  build: .
-  volumes:
-    - ./website:/var/www/localhost/htdocs
+  #build: .
+  image : yarinkos/ngnix_confd_demo
+#  volumes:
+#    - ./website:/var/www/localhost/htdocs
   environment:
-    - SERVER_NAME=sample.com
+    - ENV_NAME=Paas-Ops
   ports:
     - "3000:80"
